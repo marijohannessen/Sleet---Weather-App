@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Sleet - Beautiful weather</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/sweetalert.css" type="text/css">
+        <link rel="icon" href="img/portfolio-images/favicon.png">
+        <link rel="stylesheet" href="css/sleet.css" type="text/css">
+</head>
+    <body>
+
+        <div id="wrapper">
+        
+            <header></header>
+            
+            <div id="weatherSearch">
+            
+                <h1>Sleet</h1>
+                <h2>Beautiful, simple weather</h2>
+                <div class="ui-widget">
+                <input type="text" id="tags" name="weatherText" value="Enter city" />
+                </div>
+                <input type="button" id="submitWeather" value="Find weather">
+                
+                <div id="weatherResult">
+                
+                    <p id="headline">Current weather for <span id="addLocation"></span></p>
+                    <div id="results"></div>
+                    <p id="description"></p>
+                    <div id="temp"></div>
+                
+                </div>
+            </div>
+            
+
+        
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/sweetalert.min.js"></script>
+        <script src="js/main.js"></script>
+            <footer>
+            <p>&copy; 2015 Mari Johannessen</p>
+            </footer>
+    </body>
+</html>
